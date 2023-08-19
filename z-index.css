@@ -1,0 +1,32 @@
+.box {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+.box1 {
+  background-color: aqua;
+  z-index: 3;
+  margin: auto;
+}
+.box2 {
+  background-color: rgb(4, 0, 255);
+  z-index: 2;
+  margin: auto;
+  top: -400px;
+  right: 30px;
+}
+.box3 {
+  background-color: rgb(212, 0, 255);
+  z-index: 1;
+  margin: auto;
+  top: -900px;
+  right: 60px;
+}
+
+h5::after {
+  content: "hapi hap hapi";
+  color: chocolate;
+}
+p::first-line {
+  font-size: 3em;
+}
